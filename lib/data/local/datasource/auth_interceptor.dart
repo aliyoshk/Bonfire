@@ -1,5 +1,5 @@
+import 'package:bonfire/data/local/datasource/token_manager.dart';
 import 'package:dio/dio.dart';
-import 'package:ice_care_mobile/data/local/datasource/token_manager.dart';
 
 class AuthInterceptor extends Interceptor {
   final TokenManager tokenManager;
